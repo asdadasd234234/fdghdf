@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.head{
+    width: 100vw;
+    height: 15vh;
+    border-bottom-color: white;
+    color: white;
+    border-bottom-style: solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main{
+    width: 100vw;
+    height: 70vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.buy_menu{
+    width: 50vw;
+    height:50vh;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.footer{
+    width: 100vw;
+    height: 15vh;
+    border-color: white;
+    color: white;
+    border-top-style:solid ;
+}
