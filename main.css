@@ -12,6 +12,27 @@ body{
     align-items: center;
     display: flex;
 }
+.h1{
+    width: 33vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.h2{
+    width: 34vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.h3{
+    width: 33vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .main{
     width: 100vw;
     height: 70vh;
@@ -21,11 +42,35 @@ body{
     display: flex;
 }
 .buy_menu{
-    width: 50vw;
-    height:50vh;
+    width: 80vw;
+    height:60vh;
     border-style: solid;
     border-color: white;
     color: white;
+    display: flex;
+}
+.Money{
+    width: 40vw;
+    height: 60vh;
+    border-color: white;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
+    gap: 20px;
+    place-items: center;
+}
+.Cars{
+    width: 40vw;
+    height: 60vh;
+    border-color: white;
+    color: white;
+    border-left-style: solid;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
+    gap: 20px;
+    place-items: center;
 }
 .footer{
     width: 100vw;
@@ -33,4 +78,29 @@ body{
     border-color: white;
     color: white;
     border-top-style:solid ;
+    display: flex;
+}
+.Cars h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Money h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    width: auto;
+    height:auto ;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: black;
+    
+}
+.card button{
+    width: auto;
+    height: auto;
 }
